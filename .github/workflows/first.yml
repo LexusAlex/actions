@@ -10,5 +10,5 @@ jobs:
       - name: multiline
         run: |
           php -v
-          nmp -v
+          npm -v
           node -v
