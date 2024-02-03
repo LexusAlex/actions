@@ -1,0 +1,9 @@
+name: first
+on: [push]
+
+jobs:
+  run-first-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dispaly text
+        run: df -h
