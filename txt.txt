@@ -1,1 +1,6 @@
+Не запускать workflow
 git commit -m "text commit [actions skip]"
+
+В интерфейсе гитхаба
+
+5
