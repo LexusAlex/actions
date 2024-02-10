@@ -1,0 +1,16 @@
+name: four
+on: [push]
+
+jobs:
+  run-first-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dispaly text
+        run: df -h
+      - name: multiline
+        run: |
+          pwd
+          ls -a
+          php -v
+          npm -v
+          node -v

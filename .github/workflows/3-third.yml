@@ -1,4 +1,4 @@
-name: first
+name: third
 on: [push]
 
 jobs:
