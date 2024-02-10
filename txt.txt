@@ -3,4 +3,6 @@ git commit -m "text commit [actions skip]"
 
 В интерфейсе гитхаба
 
+on: [workflow_dispatch]  workflow в ручном режиме в интерфейсе гитихаба в примере как second
+
 5
