@@ -1,0 +1,14 @@
+name: five
+on: [push]
+
+jobs:
+  run-first-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: copy files
+        run: |
+          git init
+          git remote add origin "https://$GITHUB_ACTOR:${{secrets.GITHUB_TOKEN}}@github.com/LexusAlex/$GITHUB_REPOSITORY.git"
+          git fetch origin
+          git checkout main
+          ls -a
